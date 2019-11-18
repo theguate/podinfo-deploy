@@ -1,0 +1,1 @@
+{"jobID":"31989f19-eb2c-c74c-e0de-b5e682c64f60","spec":{"type":"policy","cause":{"Message":"","User":"Javier Galvez \u003cgalvez.javier@gmail.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
