@@ -22,11 +22,8 @@ spec:
       containers:
       - name: podinfod
         image: quay.io/brice/metrics-demo:v6
-        command:
-        - ./podinfo
-        - --port=9898
         ports:
-        - containerPort: 9898
+        - containerPort: 3000
         readinessProbe:
           httpGet:
             path: /readyz
