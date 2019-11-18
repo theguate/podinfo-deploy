@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: jav-test
-        image: quay.io/brice/metrics-demo:v6
+        image: quay.io/brice/metrics-demo:master-a1560c8
         ports:
         - containerPort: 3000
         readinessProbe:
